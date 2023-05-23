@@ -1,0 +1,34 @@
+div.amenities{
+    margin-top: 40px;
+}
+
+div.amenities h2{
+    font-size: 16px;
+    border-bottom: #DDDDDD 1px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.TV, .Wifi {
+    background-image: url("../images/icon_group.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ 
+ div.reviews{
+margin-top: 40px;
+}
+
+div.reviews h2{
+    font-size: 16px;
+    border-bottom: #DDDDDD 1px;
+}
+
+div.reviews li{
+    list-style-type: none;
+} 
+div.reviews li p{
+    font-size: 12px;
+} 
