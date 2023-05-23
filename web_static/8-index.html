@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
-    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
-    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
-    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
-    <link rel="stylesheet" type="text/css" href="styles/8-places.css">
-    <link rel="icon" type="image/png" href="./images/icon.png">
-    <link rel="icon" type="image/png" href="./images/icon_group.png">
-    <link rel="icon" type="image/png" href="./images/icon_bed.png">
-    <link rel="icon" type="image/png" href="./images/icon_bath.png">
-    <title>Airbnb</title>
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+    <link rel="icon" href="images/icon.png">
   </head>
   <body>
-    <header>
-    </header>
+    <header></header>
     <div class="container">
       <section class="filters">
-	<div class="locations">
-	  <h3>States</h3>
+        <div class="locations">
+          <h3>States</h3>
           <h4>Lagos, Rivers...</h4>
           <ul class="popover">
-            <li><h2>Rivers:</h2>
+            <li>
               <ul>
-                <li>Page</li>
-                <li>Page2</li>
+                <li><h2>Lagos</h2></li>
+                <li>Ikeja</li>
+                <li>Lekki</li>
               </ul>
             </li>
-            <li><h2>Lagos:</h2>
+            <li>
               <ul>
-                <li>Edo</li>
-                <li>Ondo</li>
+                <li><h2>Rivers</h2></li>
+                <li>Port-Harcourt</li>
+                <li>Mile-1</li>
               </ul>
+            </li>
           </ul>
         </div>
         <div class="amenities">
@@ -40,53 +39,64 @@
           <h4>Internet, Kitchen...</h4>
           <ul class="popover">
             <li>Internet</li>
-            <li>TV<li>
+            <li>TV</li>
             <li>Kitchen</li>
-            <li>Gym</li>
-            <li>Iron</li>
+            <li>Games</li>
           </ul>
         </div>
-	<button>Search</button>
+        <button>Search</button>
       </section>
       <section class="places">
-	<h1>Places</h1>
+        <h1>Places</h1>
         <article>
           <h2>My home</h2>
           <div class="price_by_night">$80</div>
           <div class="information">
-            <div class="max_guest">2 guests</div>
-            <div class="number_rooms">1 bedroom</div>
-            <div class="number_bathrooms">1 bathroom</div>
+            <div class="max_guest"><h4>2 Guests</h4></div>
+            <div class="number_rooms"><h4>1 Bedroom</h4></div>
+            <div class="number_bathrooms"><h4>1 Bathroom</h4></div>
           </div>
-          <div class="user"><strong>Owner:</strong> Osagie Emma</div>
-          <div class="description"> A lovely appartment that will beat your expectation and make you feel like Home. Spacious, Secure and a great view.</div>
-          
-	</article>
-
-        <article><h2>Tiny house</h2>
-          <div class="price_by_night">$50</div>
-          <div class="information">
-            <div class="max_guest">1 guest</div>
-            <div class="number_rooms">1 bedroom</div>
-            <div class="number_bathrooms">1 bathroom</div>
+          <div class="user">
+            <h3>Owner:</h3><h4> Micheal Craig</h4>
           </div>
-          <div class="user"><strong>Owner:</strong>Craig David</div>
-          <div class="description">Affordable, Clean and simple</div>
+          <div class="description">
+            <h4>A lovely place for anyone looking for a beauitful home to stay. great view of the city</h4>
+          </div>
         </article>
-        <article><h2>A suite</h2>
-          <div class="price_by_night">$100</div>
+        <article>
+          <h2>Tiny house</h2>
+          <div class="price_by_night">$65</div>
           <div class="information">
-            <div class="max_guest">2 guests</div>
-            <div class="number_rooms">1 bedroom</div>
-            <div class="number_bathrooms">2 bathrooms</div>
+            <div class="max_guest"><h4>4 Guests</h4></div>
+            <div class="number_rooms"><h4>2 Bedrooms</h4></div>
+            <div class="number_bathrooms"><h4>1 Bathroom</h4></div>
           </div>
-          <div class="user"><strong>Owner:</strong>Johnson Adam</div>
-          <div class="description"> Discover for yourself.</div>
+          <div class="user">
+            <h3>Owner:</h3><h4> Adrienne</h4>
+          </div>
+          <div class="description">
+            <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit sapien, eleifend odio ridiculus sodales egestas sem etiam, quis nostra sociosqu enim luctus commodo in. Eleifend platea purus sapien sociis netus convallis nisi sociosqu sed risus fames rutrum, quam mi nullam proin placerat vitae vehicula laoreet ut hendrerit nascetur. Odio potenti quam elementum leo urna bibendum ante quis platea ad, enim quisque imperdiet congue morbi vitae facilisis netus rhoncus, pharetra proin fusce maecenas velit placerat cum erat cubilia.</h4>
+          </div>
+        </article>
+        <article>
+          <h2>A suite</h2>
+          <div class="price_by_night">$180</div>
+          <div class="information">
+            <div class="max_guest"><h4>3 Guests</h4></div>
+            <div class="number_rooms"><h4>2 Bedrooms</h4></div>
+            <div class="number_bathrooms"><h4>2 Bathrooms</h4></div>
+          </div>
+          <div class="user">
+            <h3>Owner:</h3><h4> Luis</h4>
+          </div>
+          <div class="description">
+            <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit sapien, eleifend odio ridiculus sodales egestas sem etiam, quis nostra sociosqu enim luctus commodo in. Eleifend platea purus sapien sociis netus convallis nisi sociosqu sed risus fames rutrum, quam mi nullam proin placerat vitae vehicula laoreet ut hendrerit nascetur. Odio potenti quam elementum leo urna bibendum ante quis platea ad, enim quisque imperdiet congue morbi vitae facilisis netus rhoncus, pharetra proin fusce maecenas velit placerat cum erat cubilia.</h4>
+          </div>
         </article>
       </section>
     </div>
     <footer>
-      Best School
+      <p>Best School</p>
     </footer>
   </body>
 </html>
